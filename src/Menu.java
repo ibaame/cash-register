@@ -114,7 +114,7 @@ public class Menu {
             
             if(check.equals(pass)) {
             	orders.remove(IDOrder);
-    			if((IDOrder - 1) == -1)
+    			if(orders.size() == 0)
     				isEmpty = true;		
             }
             else
